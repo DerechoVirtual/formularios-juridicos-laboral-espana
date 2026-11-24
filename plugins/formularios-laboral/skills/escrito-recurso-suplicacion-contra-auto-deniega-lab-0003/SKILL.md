@@ -1,6 +1,6 @@
 ---
 name: escrito-recurso-suplicacion-contra-auto-deniega-lab-0003
-description: "Escrito de recurso de suplicación contra el auto que deniega autorizar el despido colectivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de recurso de suplicación contra el auto que deniega autorizar el despido colectivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de recurso de suplicación contra el auto que deniega autorizar el despido colectivo

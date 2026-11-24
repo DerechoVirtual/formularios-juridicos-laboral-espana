@@ -1,6 +1,6 @@
 ---
 name: papeleta-conciliacion-contra-despido-objetivo-causas-lab-0002
-description: "Papeleta de conciliación contra el despido objetivo por causas económicas de empresa en concurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Papeleta de conciliación contra el despido objetivo por causas económicas de empresa en concurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Papeleta de conciliación contra el despido objetivo por causas económicas de empresa en concurso

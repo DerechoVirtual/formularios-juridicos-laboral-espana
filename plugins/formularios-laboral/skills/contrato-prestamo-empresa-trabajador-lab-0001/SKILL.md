@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-empresa-trabajador-lab-0001
-description: "Contrato de préstamo de la empresa a un trabajador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo de la empresa a un trabajador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo de la empresa a un trabajador

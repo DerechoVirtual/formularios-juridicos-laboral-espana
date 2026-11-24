@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 3 formularios de Laboral: préstamo al trabajador, despido en concurso y suplicación. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 3 formularios de Laboral: préstamo al trabajador, despido en concurso y suplicación. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Laboral: préstamo al trabajador, despido en concurso y suplicación: índice de formularios
