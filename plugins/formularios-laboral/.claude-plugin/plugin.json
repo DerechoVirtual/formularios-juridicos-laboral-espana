@@ -1,0 +1,23 @@
+{
+  "name": "formularios-laboral",
+  "version": "1.0.0",
+  "description": "Laboral: préstamo al trabajador, despido en concurso y suplicación: 3 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Tres formularios laborales que aparecían en estas colecciones: contrato de préstamo de la empresa a un trabajador, papeleta de conciliación contra el despido objetivo por causas económicas en una empresa en concurso y recurso de suplicación contra el auto que deniega autorizar el despido colectivo. Requiere Jurisprudenciator.",
+  "author": {
+    "name": "Derecho Virtual"
+  },
+  "displayName": "Laboral: préstamo al trabajador, despido en concurso y suplicación · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "laboral"
+  ]
+}

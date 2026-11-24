@@ -1,0 +1,28 @@
+{
+  "name": "formularios-juridicos-laboral-espana",
+  "owner": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "metadata": {
+    "description": "Formularios jurídicos de España para Claude · Laboral: 1 plugin por materia (3 formularios), una skill por formulario, cada una conectada a Jurisprudenciator para verificar las normas.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "formularios-laboral",
+      "source": "./plugins/formularios-laboral",
+      "description": "Laboral: préstamo al trabajador, despido en concurso y suplicación · España (3 formularios). Tres formularios laborales que aparecían en estas colecciones: contrato de préstamo de la empresa a un trabajador, papeleta de conciliación contra el despido objetivo por causas económicas en una empresa en concurso y recurso de suplicación contra el auto que deniega autorizar el despido colectivo. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral"
+      ]
+    }
+  ]
+}
