@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Laboral: préstamo al trabajador, despido en concurso y suplicación) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Laboral: préstamo al trabajador, despido en concurso y suplicación) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -56,8 +56,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -110,15 +108,73 @@ La asistencia al acto de conciliación o de mediación es obligatoria para los l
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AL SERVICIO DE MEDIACIÓN, ARBITRAJE Y CONCILIACIÓN DE [LOCALIDAD]
+
+Los abajo firmantes, [NOMBRES Y APELLIDOS, DNI/NIE, DOMICILIO, ANTIGÜEDAD, CATEGORÍA O GRUPO PROFESIONAL, SALARIO Y EDAD DE CADA UNO DE LOS TRABAJADORES], por medio del presente escrito INTERPONEN PAPELETA DE CONCILIACIÓN POR DESPIDO OBJETIVO contra:
+
+1.- La empresa [DENOMINACIÓN SOCIAL DE LA EMPRESA A], con domicilio social en [DOMICILIO] y NIF [NIF], en la persona de su legal representante, D./Dña. [NOMBRE Y APELLIDOS];
+
+2.- La empresa [DENOMINACIÓN SOCIAL DE LA EMPRESA B], con domicilio social en [DOMICILIO] y NIF [NIF], en la persona de su legal representante, D./Dña. [NOMBRE Y APELLIDOS];
+
+3.- La administración concursal del concurso de acreedores que se tramita a instancia de la sociedad [DENOMINACIÓN SOCIAL DE LA EMPRESA A], ante la Sección de lo Mercantil del Tribunal de Instancia de [SEDE], en el procedimiento [Nº DE PROCEDIMIENTO], cuya solicitud fue admitida el día [FECHA], integrada por:
+
+a) D./Dña. [NOMBRE Y APELLIDOS], con domicilio en [DOMICILIO] y número de teléfono [TELÉFONO];
+
+b) D./Dña. [NOMBRE Y APELLIDOS], con domicilio en [DOMICILIO] y número de teléfono [TELÉFONO]; y
+
+c) D./Dña. [NOMBRE Y APELLIDOS], con domicilio en [DOMICILIO] y número de teléfono [TELÉFONO];
+
+4.- FONDO DE GARANTÍA SALARIAL, con domicilio en [DOMICILIO].
+
+Fundando la misma en los siguientes
+
+HECHOS
+
+PRIMERO.– Los abajo firmantes han prestado servicios por cuenta de la demandada [DENOMINACIÓN SOCIAL DE LA EMPRESA A], con las circunstancias de antigüedad, categoría o grupo, salario y edad que figuran en el encabezamiento del presente escrito, sin haber ostentado la condición de representantes de los trabajadores.
+
+La actividad de [DENOMINACIÓN SOCIAL DE LA EMPRESA A] consiste en [CONCRETA ACTIVIDAD DESARROLLADA POR LA EMPRESA].
+
+SEGUNDO.– El pasado día [DÍA] de [MES] de [AÑO], la sociedad mercantil codemandada [DENOMINACIÓN SOCIAL DE LA EMPRESA A] comunicó a los actores, por medio de carta de la misma fecha e idéntico contenido, que, con esa fecha de efectos, «terminará la relación laboral mantenida con Ud. por esta Empresa, al amparo del artículo 52 c) del Estatuto de los Trabajadores y en virtud de una causa de carácter económico».
+
+TERCERO.– En dichas cartas de despido, la demandada alega que «[TRANSCRIBIR LAS CAUSAS ECONÓMICAS ALEGADAS EN LA CARTA DE DESPIDO, P. EJ., SITUACIÓN ECONÓMICA NEGATIVA, ENDEUDAMIENTO, DISMINUCIÓN DE BENEFICIOS O DESCENSO DE VENTAS]», cuantificando diferentes partidas económicas y adjuntando a las cartas de despido los datos económicos correspondientes a los ejercicios de [AÑO], [AÑO] y [AÑO]. En base a dichas circunstancias, la demandada considera que resulta imprescindible proceder a la amortización de [Nº] puestos de trabajo con el objetivo de superar la crisis económica actual, al considerar que dicha medida extintiva supone un ahorro conjunto de costes de [IMPORTE] euros anuales.
+
+Se adjuntan las cartas de despido como DOCUMENTOS 1 a [Nº], y los datos económicos adjuntados a las mismas como DOCUMENTO [Nº].
+
+CUARTO.– La demandada abonó a los actores las indemnizaciones legales cuyas cuantías se especifican en las cartas de despido.
+
+QUINTO.– Como antecedentes a la decisión extintiva impuesta de contrario, conviene especificar que: [AÑADIR AQUELLAS CONDUCTAS EMPRESARIALES PREVIAS QUE PUEDAN, DE ALGUNA FORMA, SUPONER FRAUDE EN SU COMPORTAMIENTO].
+
+SEXTO.– La empresa [DENOMINACIÓN SOCIAL DE LA EMPRESA A] desistió el pasado [FECHA] del procedimiento de despido colectivo (antiguo expediente de regulación de empleo) iniciado, siendo comunicada dicha decisión al comité de empresa a primeros del mes de [MES] y, estando negociando con posterioridad en diferentes sesiones las propuestas planteadas en el hecho anterior, de forma sorprendente, atentando al deber de buena fe que debe presidir toda negociación, la demandada impone a los trabajadores accionantes de forma fulminante el despido por causas objetivas.
+
+SÉPTIMO.– No se ajustan a la realidad las causas alegadas de contrario motivadoras de su decisión extintiva, por lo que debe declararse la improcedencia de los despidos.
+
+OCTAVO.– Los criterios seguidos por la empresa [DENOMINACIÓN SOCIAL DE LA EMPRESA A] en su decisión de despedir a los actores de forma alguna se analizan o valoran en las cartas de despido; lo único cierto es que son los más antiguos en la empresa (entre [Nº] y [Nº] años de antigüedad) y con unas edades ([EDADES] años, respectivamente) que dificultan enormemente la búsqueda de trabajo.
+
+NOVENO.– Manifiestan los abajo firmantes, a los efectos oportunos, que [ELEGIR: no se encuentran afiliados a ningún sindicato / se encuentran afiliados al sindicato [SINDICATO]].
+
+DÉCIMO.– Igualmente manifiestan, a los efectos oportunos, que, ni actualmente ni dentro del último año, ostentan o han ostentado cargo alguno de representación sindical o legal de los trabajadores.
+
+SUPLICAN
+
+Que, teniendo por presentado este escrito, junto con sus copias, se digne admitirlo y tener por solicitada la celebración de acto de conciliación en materia de despido y, previos los trámites oportunos, cite a ambas partes a fin de que dichas empresas se avengan a reconocer que el despido que llevaron a cabo en la fecha ya indicada está absoluta y totalmente injustificado, con las consecuencias legales que en su caso procedan.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO]
+
+Firmas: [FIRMA DE CADA UNO DE LOS TRABAJADORES]

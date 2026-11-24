@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Laboral: préstamo al trabajador, despido en concurso y suplicación) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Laboral: préstamo al trabajador, despido en concurso y suplicación) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -97,15 +95,89 @@ Los convenios colectivos suelen establecer condiciones para estos préstamos, a 
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LUGAR], a [FECHA].
+
+REUNIDOS
+
+DE UNA PARTE,
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, provisto de DNI número [DNI/NIE], [ELEGIR: representante legal / gerente / administrador único] de la empresa [DENOMINACIÓN SOCIAL], en cuya representación actúa en el presente acto conforme a las facultades que al efecto tiene otorgadas, con domicilio social en [LOCALIDAD].
+
+Y, DE OTRA PARTE,
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, provisto/a de DNI número [DNI/NIE], actuando en su propio nombre y derecho, con domicilio en [LOCALIDAD].
+
+Se reconocen ambos la capacidad suficiente para otorgar el presente CONTRATO DE PRÉSTAMO DE LA EMPRESA AL TRABAJADOR por su condición de tal, conforme a las siguientes
+
+ESTIPULACIONES
+
+Primera
+
+La empresa entregará a la persona trabajadora, que acepta en este acto, la cantidad de [IMPORTE] euros en concepto de préstamo por su condición de tal, que hará efectiva mediante transferencia bancaria que realizará en fecha de hoy en la cuenta bancaria donde la empresa realiza los ingresos mensuales de su nómina.
+
+Segunda
+
+El préstamo que se otorga cumple los requisitos establecidos en la cláusula número [NÚMERO] del convenio colectivo aplicable, de [CONVENIO COLECTIVO], para poder otorgarse, es decir:
+
+[OPCIONAL — incluir si procede]
+
+- El trabajador/la trabajadora tiene la antigüedad mínima de [Nº] años en la empresa.
+
+[OPCIONAL — incluir si procede]
+
+- El préstamo tiene como causa [CAUSA].
+
+[OPCIONAL — incluir si procede]
+
+- El préstamo no supera el límite del % del salario bruto del trabajador/de la trabajadora.
+
+Tercera
+
+La cantidad prestada deberá ser devuelta y reintegrada por el trabajador/la trabajadora a la empresa en el plazo total de [PLAZO], mediante ingresos o transferencias mensuales que al efecto realizará antes del día [FECHA] de cada mes en la cuenta bancaria nº [NÚMERO] de la empresa.
+
+Cuarta
+
+Se pacta un interés sobre el importe del préstamo del % anual, inferior al interés legal actual vigente del %, que se liquidará mensualmente junto con la amortización del capital indicada en la estipulación anterior y el trabajador ingresará o transferirá en la misma cuenta bancaria.
+
+Quinta
+
+El prestatario/La prestataria podrá reintegrar el capital prestado antes de su vencimiento sin coste alguno.
+
+Sexta
+
+El salario del trabajador/la trabajadora garantiza el préstamo, de forma que el retraso o impago de alguna de las cuotas mensuales autoriza a la empresa a cargar su importe en el salario del mes siguiente, descontándolo de tal retribución.
+
+Séptima
+
+Como el préstamo pactado es a interés inferior al de mercado, tiene la consideración de retribución en especie, por lo que constará como rendimiento del trabajo del trabajador/la trabajadora a todos los efectos.
+
+Octava
+
+La empresa realizará el obligado ingreso a cuenta en Hacienda Pública de la cantidad de [IMPORTE] euros, resultante de aplicar el porcentaje de % a la cantidad resultante de aplicar el porcentaje de diferencia entre el interés legal y el aquí pactado sobre la cuantía total el préstamo, y lo comunicará en la liquidación [ELEGIR: trimestral / mensual] de retenciones e ingresos a cuenta y en la anual correspondiente a que está obligada.
+
+La citada cantidad correrá a cargo del trabajador/la trabajadora.
+
+Y en prueba de conformidad firman el presente documento por duplicado ejemplar y a un solo efecto en el lugar y fecha expresados en el encabezamiento.
+
+Por la empresa
+
+Trabajador/a
+
+D./Dña. [NOMBRE Y APELLIDOS] D./Dña. [NOMBRE Y APELLIDOS]
