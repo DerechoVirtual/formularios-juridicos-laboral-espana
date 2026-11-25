@@ -1,0 +1,25 @@
+{
+  "name": "formularios-despidos",
+  "version": "1.1.0",
+  "description": "Despido y extinción del contrato de trabajo: 89 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la extinción del contrato: carta de despido disciplinario y objetivo, finiquito, dimisión y baja voluntaria, fin de contratos temporales, extinción a instancia del trabajador (art. 50 ET), acuerdos transaccionales y demandas por despido (nulo, improcedente, de representantes). Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Despido y extinción del contrato de trabajo · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "despido-y-extincion"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
+}

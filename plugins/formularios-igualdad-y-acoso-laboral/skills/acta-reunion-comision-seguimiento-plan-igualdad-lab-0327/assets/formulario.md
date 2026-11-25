@@ -1,0 +1,55 @@
+El art. 9 del Real Decreto 901/2020, de 13 de octubre, por el que se regulan los planes de igualdad y su registro y se modifica el Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios y acuerdos colectivos de trabajo, regula el seguimento, evaluación y revisión del plan, estableciendo que deberá realizarse de forma periódica conforme se estipule en el calendario de actuaciones del plan de igualdad o en el reglamento que regule la composición y funciones de la comisión encargada del seguimiento del plan de igualdad, y que se realizará al menos una evaluación intermedia y otra final.
+
+Orden del día:
+
+[OPCIONAL — incluir si procede]
+
+Revisión detallada del grado de implantación de las medidas que incluye el Plan de Igualdad.
+
+[OPCIONAL — incluir si procede]
+
+Fijar medidas para la corrección de las posibles desviaciones observadas.
+
+[OPCIONAL — incluir si procede]
+
+Ruegos y preguntas.
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+Integrantes de la Comisión que asisten:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+- D./Dña. [NOMBRE Y APELLIDOS] ().
+
+Integrantes de la Comisión que no asisten:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+- D./Dña. [NOMBRE Y APELLIDOS] ().
+
+Participantes de la reunión que no pertenecen a la Comisión:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+- D./Dña. [NOMBRE Y APELLIDOS] ().
+
+La Comisión de Seguimiento y Evaluación, según la convocatoria cursada por su presidente/a, se reúne en [LUGAR], a las [Nº] horas del día [FECHA].
+
+Acuerdos tomados:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+Ruegos y preguntas:
+
+Documentación que se adjunta:
+
+Se adjunta a este Acta el INFORME DE IMPLANTACIÓN Y SEGUIMIENTO.
+
+Concluye la reunión a las [Nº] horas.
+
+En [LUGAR], a [FECHA].
+
+Firmado: D./Dña. [NOMBRE Y APELLIDOS]
+
+════════════════════════════════════════════════════════════════════════

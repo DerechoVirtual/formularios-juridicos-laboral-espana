@@ -5,15 +5,15 @@
     "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "metadata": {
-    "description": "Formularios jurídicos de España para Claude · Laboral: 1 plugin por materia (3 formularios), una skill por formulario, cada una conectada a Jurisprudenciator: sin él las skills no redactan ni verifican nada.",
-    "version": "1.0.0"
+    "description": "Formularios jurídicos de España para Claude · Laboral: 15 plugins por materia (1004 formularios), una skill por formulario, cada una conectada a Jurisprudenciator: sin él las skills no redactan ni verifican nada.",
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "formularios-laboral",
-      "source": "./plugins/formularios-laboral",
-      "description": "Laboral: préstamo al trabajador, despido en concurso y suplicación · España (3 formularios). Tres formularios laborales que aparecían en estas colecciones: contrato de préstamo de la empresa a un trabajador, papeleta de conciliación contra el despido objetivo por causas económicas en una empresa en concurso y recurso de suplicación contra el auto que deniega autorizar el despido colectivo. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
-      "version": "1.0.0",
+      "name": "formularios-contratos-de-trabajo",
+      "source": "./plugins/formularios-contratos-de-trabajo",
+      "description": "Contratos de trabajo y contratación laboral · España (136 formularios). Para contratar: contratos indefinidos, temporales y formativos tras la reforma de 2021, fijos discontinuos, relaciones laborales especiales (alta dirección, deportistas, artistas, representantes de comercio, hogar), periodo de prueba, pactos y cláusulas del contrato, ETT y cesión de trabajadores, y su información y comunicación. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
       "category": "legal",
       "keywords": [
         "jurisprudenciator",
@@ -21,7 +21,232 @@
         "españa",
         "formularios",
         "modelos",
-        "laboral"
+        "laboral",
+        "contratacion-laboral"
+      ]
+    },
+    {
+      "name": "formularios-salario-y-condiciones-de-trabajo",
+      "source": "./plugins/formularios-salario-y-condiciones-de-trabajo",
+      "description": "Salario, movilidad y condiciones de trabajo · España (89 formularios). Para las condiciones del contrato: salario, nóminas, pluses, anticipos y préstamos al trabajador, movilidad funcional y geográfica, traslados y desplazamientos, modificación sustancial de condiciones (individual y colectiva, con su periodo de consultas) y sucesión de empresa. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "condiciones-de-trabajo-y-salario"
+      ]
+    },
+    {
+      "name": "formularios-jornada-vacaciones-y-permisos",
+      "source": "./plugins/formularios-jornada-vacaciones-y-permisos",
+      "description": "Jornada, vacaciones, permisos y conciliación · España (87 formularios). Para el tiempo de trabajo: jornada y horario, registro de jornada, horas extraordinarias y trabajo nocturno, vacaciones, permisos retribuidos y no retribuidos, reducción de jornada y adaptación por conciliación, excedencias y reingreso, suspensiones del contrato y trabajo a distancia. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "jornada-permisos-y-conciliacion"
+      ]
+    },
+    {
+      "name": "formularios-igualdad-y-acoso-laboral",
+      "source": "./plugins/formularios-igualdad-y-acoso-laboral",
+      "description": "Igualdad, acoso y canal de denuncias en la empresa · España (36 formularios). Para la igualdad en la empresa: plan de igualdad y su comisión negociadora, diagnóstico y cuestionarios, registro retributivo, protocolos frente al acoso sexual, por razón de sexo y laboral, medidas LGTBI, canal de denuncias y sanción del acoso. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "igualdad-y-acoso"
+      ]
+    },
+    {
+      "name": "formularios-datos-y-control-del-trabajador",
+      "source": "./plugins/formularios-datos-y-control-del-trabajador",
+      "description": "Protección de datos y control empresarial · España (11 formularios). Para el control de la actividad y los datos de la plantilla: información sobre protección de datos a los empleados, videovigilancia y geolocalización, uso de medios informáticos y teléfono de empresa, desconexión digital, códigos de conducta y de vestimenta, y cláusulas de confidencialidad. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "datos-y-control-empresarial"
+      ]
+    },
+    {
+      "name": "formularios-prevencion-de-riesgos-laborales",
+      "source": "./plugins/formularios-prevencion-de-riesgos-laborales",
+      "description": "Prevención de riesgos laborales · España (7 formularios). Para la prevención de riesgos: comunicación de apertura de centro de trabajo, formación e información preventiva, documentación preventiva en ETT y contratas, delegados de prevención y comunicaciones con ellos, y requerimientos de la Inspección en materia preventiva. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "prevencion-de-riesgos"
+      ]
+    },
+    {
+      "name": "formularios-comite-sindicatos-y-convenios",
+      "source": "./plugins/formularios-comite-sindicatos-y-convenios",
+      "description": "Representantes de los trabajadores, sindicatos y convenios · España (14 formularios). Para las relaciones colectivas: información y consulta a los representantes de los trabajadores, elecciones sindicales y su impugnación, garantías de los representantes, secciones sindicales, negociación de convenios y acuerdos de empresa, inaplicación del convenio y huelga. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "representacion-y-negociacion-colectiva"
+      ]
+    },
+    {
+      "name": "formularios-faltas-y-sanciones-laborales",
+      "source": "./plugins/formularios-faltas-y-sanciones-laborales",
+      "description": "Faltas y sanciones laborales · España (42 formularios). Para el poder disciplinario de la empresa: cartas de amonestación y sanción por faltas leves, graves y muy graves, expediente contradictorio, pliego de cargos y descargos, audiencia a representantes y delegados sindicales, y cancelación de antecedentes. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "regimen-disciplinario"
+      ]
+    },
+    {
+      "name": "formularios-despidos",
+      "source": "./plugins/formularios-despidos",
+      "description": "Despido y extinción del contrato de trabajo · España (89 formularios). Para la extinción del contrato: carta de despido disciplinario y objetivo, finiquito, dimisión y baja voluntaria, fin de contratos temporales, extinción a instancia del trabajador (art. 50 ET), acuerdos transaccionales y demandas por despido (nulo, improcedente, de representantes). Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "despido-y-extincion"
+      ]
+    },
+    {
+      "name": "formularios-ere-y-erte",
+      "source": "./plugins/formularios-ere-y-erte",
+      "description": "Despido colectivo y ERTE · España (86 formularios). Para los procedimientos colectivos: despido colectivo y ERTE por causas económicas, técnicas, organizativas o de producción y por fuerza mayor, comisión negociadora, periodo de consultas y actas, comunicaciones a la autoridad laboral, Mecanismo RED y demandas contra el despido colectivo. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "despido-colectivo-y-erte"
+      ]
+    },
+    {
+      "name": "formularios-seguridad-social-en-la-empresa",
+      "source": "./plugins/formularios-seguridad-social-en-la-empresa",
+      "description": "Seguridad Social en la empresa, incapacidad y accidentes de trabajo · España (27 formularios). Para la Seguridad Social desde la empresa: incapacidad temporal y permanente en la relación laboral, accidentes de trabajo y enfermedad profesional, responsabilidad empresarial, FOGASA, certificaciones de descubiertos y comunicaciones con la mutua y la Tesorería. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "seguridad-social-y-accidentes"
+      ]
+    },
+    {
+      "name": "formularios-inspeccion-de-trabajo",
+      "source": "./plugins/formularios-inspeccion-de-trabajo",
+      "description": "Inspección de Trabajo y sanciones administrativas · España (62 formularios). Para tratar con la Inspección de Trabajo y la autoridad laboral: alegaciones a actas de infracción y de liquidación, recursos de alzada contra sanciones en el orden social, pago voluntario con reducción, denuncias ante la Inspección y comunicaciones a la autoridad laboral. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "inspeccion-de-trabajo"
+      ]
+    },
+    {
+      "name": "formularios-recursos-y-ejecucion-laboral",
+      "source": "./plugins/formularios-recursos-y-ejecucion-laboral",
+      "description": "Recursos, ejecución y resoluciones en el proceso laboral · España (102 formularios). Para la fase de recurso y ejecución en la jurisdicción social: recursos de reposición, suplicación, casación y queja y su impugnación, ejecución provisional y definitiva de sentencias, embargos, insolvencia y resoluciones del tribunal. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "proceso-laboral"
+      ]
+    },
+    {
+      "name": "formularios-laboral",
+      "source": "./plugins/formularios-laboral",
+      "description": "Proceso laboral: conciliación, demandas y escritos · España (173 formularios). Para litigar en lo social: papeleta de conciliación ante el SMAC, reclamación previa, demandas (cantidad, reconocimiento de derechos, relación laboral, tutela), otrosíes, prueba, poder apud acta, acumulación y escritos de trámite ante la Sección de lo Social. Los recursos y la ejecución están en `formularios-recursos-y-ejecucion-laboral`. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "proceso-laboral"
+      ]
+    },
+    {
+      "name": "formularios-extranjeria-y-trabajo",
+      "source": "./plugins/formularios-extranjeria-y-trabajo",
+      "description": "Extranjería y movilidad internacional de trabajadores · España (43 formularios). Para la extranjería laboral: autorizaciones de residencia y trabajo, arraigo, residencia de larga duración, visados y movilidad internacional (Ley 14/2013), desplazamiento de trabajadores, TIE, recursos y contencioso en materia de extranjería, expulsión y medidas cautelares. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+      "version": "1.1.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "laboral",
+        "extranjeria"
       ]
     }
   ]

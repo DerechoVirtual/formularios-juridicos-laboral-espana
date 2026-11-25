@@ -1,0 +1,25 @@
+{
+  "name": "formularios-prevencion-de-riesgos-laborales",
+  "version": "1.1.0",
+  "description": "Prevención de riesgos laborales: 7 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la prevención de riesgos: comunicación de apertura de centro de trabajo, formación e información preventiva, documentación preventiva en ETT y contratas, delegados de prevención y comunicaciones con ellos, y requerimientos de la Inspección en materia preventiva. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Prevención de riesgos laborales · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "prevencion-de-riesgos"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
+}

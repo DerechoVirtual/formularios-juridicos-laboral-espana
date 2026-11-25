@@ -1,0 +1,25 @@
+{
+  "name": "formularios-jornada-vacaciones-y-permisos",
+  "version": "1.1.0",
+  "description": "Jornada, vacaciones, permisos y conciliación: 87 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el tiempo de trabajo: jornada y horario, registro de jornada, horas extraordinarias y trabajo nocturno, vacaciones, permisos retribuidos y no retribuidos, reducción de jornada y adaptación por conciliación, excedencias y reingreso, suspensiones del contrato y trabajo a distancia. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Jornada, vacaciones, permisos y conciliación · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "jornada-permisos-y-conciliacion"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
+}

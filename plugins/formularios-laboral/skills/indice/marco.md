@@ -1,6 +1,6 @@
-Materia: **Proceso laboral**. Normativa vigente a 17-11-2026, comprobada en el BOE consolidado con Jurisprudenciator; lo que no se pudo confirmar va marcado **NO VERIFICADO**.
+# Guía del tema · Proceso laboral (conciliación, demandas, recursos y ejecución)
 
-> Los números de formulario que aparecen en esta guía son los de la colección de Laboral (los mismos que encabezan cada skill).
+Materia: **Proceso laboral**. Normativa vigente a 17-11-2026, comprobada en el BOE consolidado con Jurisprudenciator; lo que no se pudo confirmar va marcado **NO VERIFICADO**.
 
 ## Normas de referencia
 

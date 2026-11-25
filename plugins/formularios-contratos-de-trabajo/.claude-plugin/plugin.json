@@ -1,0 +1,25 @@
+{
+  "name": "formularios-contratos-de-trabajo",
+  "version": "1.1.0",
+  "description": "Contratos de trabajo y contratación laboral: 136 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para contratar: contratos indefinidos, temporales y formativos tras la reforma de 2021, fijos discontinuos, relaciones laborales especiales (alta dirección, deportistas, artistas, representantes de comercio, hogar), periodo de prueba, pactos y cláusulas del contrato, ETT y cesión de trabajadores, y su información y comunicación. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Contratos de trabajo y contratación laboral · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "contratacion-laboral"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
+}

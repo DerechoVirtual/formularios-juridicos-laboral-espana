@@ -1,0 +1,25 @@
+{
+  "name": "formularios-inspeccion-de-trabajo",
+  "version": "1.1.0",
+  "description": "Inspección de Trabajo y sanciones administrativas: 62 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para tratar con la Inspección de Trabajo y la autoridad laboral: alegaciones a actas de infracción y de liquidación, recursos de alzada contra sanciones en el orden social, pago voluntario con reducción, denuncias ante la Inspección y comunicaciones a la autoridad laboral. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Inspección de Trabajo y sanciones administrativas · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "inspeccion-de-trabajo"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
+}

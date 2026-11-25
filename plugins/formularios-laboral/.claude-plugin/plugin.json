@@ -1,12 +1,12 @@
 {
   "name": "formularios-laboral",
-  "version": "1.0.0",
-  "description": "Laboral: préstamo al trabajador, despido en concurso y suplicación: 3 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Tres formularios laborales que aparecían en estas colecciones: contrato de préstamo de la empresa a un trabajador, papeleta de conciliación contra el despido objetivo por causas económicas en una empresa en concurso y recurso de suplicación contra el auto que deniega autorizar el despido colectivo. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Proceso laboral: conciliación, demandas y escritos: 173 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para litigar en lo social: papeleta de conciliación ante el SMAC, reclamación previa, demandas (cantidad, reconocimiento de derechos, relación laboral, tutela), otrosíes, prueba, poder apud acta, acumulación y escritos de trámite ante la Sección de lo Social. Los recursos y la ejecución están en `formularios-recursos-y-ejecucion-laboral`. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"
   },
-  "displayName": "Laboral: préstamo al trabajador, despido en concurso y suplicación · España",
+  "displayName": "Proceso laboral: conciliación, demandas y escritos · España",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
   "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
@@ -18,7 +18,8 @@
     "españa",
     "formularios",
     "modelos",
-    "laboral"
+    "laboral",
+    "proceso-laboral"
   ],
   "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
 }

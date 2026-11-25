@@ -1,0 +1,9 @@
+El art. 63 LRJS lleva al intento de conciliación o, en su caso, de mediación ante el servicio administrativo correspondiente o ante el órgano que asuma estas funciones, que podrá constituirse mediante los acuerdos interprofesionales o los convenios colectivos a los que se refiere el artículo 83 ET, así como mediante los acuerdos de interés profesional a los que se refiere la Ley del Estatuto del Trabajo Autónomo.
+
+La asistencia al acto de conciliación o mediación es obligatoria para los litigantes (art. 66 LRJS). Si no compareciera el reclamado, debidamente citado, se hará constar expresamente en la certificación del acta de conciliación o de mediación y se tendrá la conciliación o la mediación por intentada sin efecto, y el Juez o Tribunal impondrán las costas del proceso a la parte que no hubiere comparecido sin causa justificada, incluidos honorarios, hasta el límite de 600 euros, del letrado o graduado social colegiado de la parte contraria que hubieren intervenido, si la sentencia que en su día dicte coincidiera esencialmente con la pretensión contenida en la papeleta de conciliación o en la solicitud de mediación.
+
+El presente formulario contiene únicamente una pequeña fórmula a aportar al acto de conciliación por parte de la persona reclamada, con objeto de mostrar su disconformidad a la reclamación de contrario y anunciar la oportuna reconvención, que le servirá en el momento del juicio para defender su propia pretensión.
+
+La parte reclamada se opone a la petición por las razones que en su día se alegarán, y, en este acto formula, al amparo del artículo 85.3 de la Ley reguladora de la jurisdicción Social, anuncio de reconvención por la cantidad total de [IMPORTE] Euros por los siguientes conceptos:
+
+Dicha cantidad resulta debida por el demandante por los siguientes motivos:

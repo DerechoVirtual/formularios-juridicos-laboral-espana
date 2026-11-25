@@ -1,0 +1,25 @@
+{
+  "name": "formularios-extranjeria-y-trabajo",
+  "version": "1.1.0",
+  "description": "Extranjería y movilidad internacional de trabajadores: 43 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la extranjería laboral: autorizaciones de residencia y trabajo, arraigo, residencia de larga duración, visados y movilidad internacional (Ley 14/2013), desplazamiento de trabajadores, TIE, recursos y contencioso en materia de extranjería, expulsión y medidas cautelares. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Extranjería y movilidad internacional de trabajadores · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "laboral",
+    "extranjeria"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-laboral-espana"
+}
